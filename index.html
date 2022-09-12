@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/Styles/index.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+</head>
+<body>
+    <nav>
+        <label class="logo">BS</label>
+        <ul>
+            
+            <li><a class="active" href="#">About Me</a></li>
+            <li><a href="#">Tech Stack</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <label id="icon">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+    </nav>
+    <section></section>
+
+    <!-- About Section -->
+    <div id="about">
+<div id="aboutContainer">
+    <div class="bio">
+    <h3>Hi, I am 
+       </h3>
+       <h3>Bhoop Singh</h3>
+       <h5>Java Backend Developer</h5>
+       <button id="btn1">Resume</button>
+    </div>
+    <div class="image">
+       <img id="photo" src="/images/Photo.jpg" alt="">
+    </div>
+   
+</div>
+    </div>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+      $('#icon').click(function(){
+        $('ul').toggleClass('show');
+      });
+    });
+</script>
