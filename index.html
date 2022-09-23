@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="/Styles/index.css">
     <link rel="stylesheet" href="/Styles/color1.css">
     <title>Portfolio</title>
@@ -21,30 +23,26 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-user"></i>About Me</a></li>
-                <li><a href="#"><i class="fa-brands fa-codepen"></i>Tech Stack</a></li>
-                <li><a href="#"><i class="fa-regular fa-address-book"></i>Skills</a></li>
-                <li><a href="#"><i class="fa-regular fa-address-book"></i>Project</a></li>
-                <li><a href="#"><i class="fa-regular fa-address-book"></i></i>Statistics</a></li>
-                <li><a href="#"><i class="fa-regular fa-address-book"></i>Contacts</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-user" aria-hidden="true"></i>About Me</a></li>
+                <li><a href="#tech"><i class="fa fa-code"></i>Tech Stack</a></li>
+                <li><a href="#skills"><i class="fa fa-superpowers" aria-hidden="true"></i>Skills</a></li>
+                <li><a href="#projectMain"><i class="fa fa-file-code-o" aria-hidden="true"></i>Project</a></li>
+                <li><a href="#statics"><i class="fa fa-pie-chart" aria-hidden="true"></i>Statistics</a></li>
+                <li><a href="#contact"><i class="fa-regular fa-address-book"></i>Contacts</a></li>
 
             </ul>
         </div>
         <!-- side bar end -->
         <!-- main content -->
         <div class="main-content">
-            <section class="home section ">
+            <section class="home active section " id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
                             <h3 class="hello">Hey!, I am <span class="name">Bhoop Singh</span></h3>
                             <h3 class="my-profession">I' m  <span class="typing">Java Backend Developer</span></h3>
-                            <p>Highly dedicated, logical and results-driven
-                                Full Stack Developer familiar with a wide range
-                                of programming utilities and languages.
-                                Knowledgeable of Java Backend and Frontend
-                                Development.</p>
-                                <a href="#contact" class="btn hire-me">Resume</a>
+                            <p>Highly dedicated, logical and results-driven Full Stack Developer familiar with a wide range of programming utilities and languages. Knowledgeable of Java Backend and Frontend Development.</p>
+                                <a href="/BHOOP_SINGH_Resume.txt"  class="btn" download="BHOOP_SINGH_RESUME">Resume</a>
                         </div>
                         <div class="home-img padd-15">
                             <img src="/images/Photo.jpg" alt="">
@@ -54,7 +52,7 @@
                 </div>
             </section>
             <!-- Tech -->
-            <section class="service section ">
+            <section class="tech section" id="tech">
            <div class="container">
             <div class="row">
                 <div class="section-title padd-15">
@@ -63,7 +61,7 @@
                 </div>
             </div>
 
-            <div class="tech">
+            <div class="tech-1">
 
                 <div class="tech-item"> 
                 <img class="icon" src="/images/Java.png" alt="">
@@ -103,7 +101,7 @@
            
             </section>
             <!-- Skills Section -->
-            <section class="service section ">
+            <section class="skills section " id="skills">
             <div class="container">
 
                 <div class="row">
@@ -114,7 +112,7 @@
                 </div>
 
 
-                <div class="skills">
+                <div class="skills-1">
                     <a href="#" style="--clr:#1e9bff" class="a"><span>Frontend Development</span><i></i></a>
                     <a href="#" style="--clr:#1e9bff"  class="a"><span>Java Backend Development</span><i></i></a>
                     <a href="#" style="--clr:#1e9bff" class="a"><span>Data Structures and Algorithm</span><i></i></a>
@@ -129,7 +127,7 @@
             </section>
            
             <!-- Project -->
-            <section class="service section">
+            <section class="projectMain section " id="projectMain">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -139,15 +137,286 @@
                     </div>
                       
 
+               <div class="project-outer">
+                     <div class="project">
+                        <div class="imageSlider">
+                            
+                        </div>
+                        <div class="info">
+                            <h2>Clone_Ssense</h2>
+                            <h4>Features</h4>
+                            <li>Home Page</li>
+                            <li>Add to Cart</li>
+                            <li>Add to WishList</li>
+                            <li>Login & SingUp</li>
+                            <h4>Tech Stack</h4>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <div class="project-btn">
+                               <button> <i class="fa-brands fa-github"></i><a href="https://github.com/bhupirao/Clone_Ssense.github.io" target="_blank">Code</a></button>
+                            <button><i class="fa-solid fa-arrow-up-right-from-square"></i><a href="https://bhupirao.github.io/Clone_Ssense.github.io/" target="_blank">Live</a></button>
+                            </div>
+                        </div>
+                        
 
+                     </div>
+                     <div class="project">
+                        <div class="imageSlider2">
 
+                        </div>
+                        <div class="info">
+                            <h2>Clone_Boat_Style</h2>
+                            <h4>Features</h4>
+                            <li>Home Page</li>
+                            <li>Login & SingUp</li>
+                            <li>Product Page, Watches Page</li>
+                            <li>Gift Card Page, Checkout Page</li>
+                            <h4>Tech Stack</h4>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <div class="project-btn">
+                               <button> <i class="fa-brands fa-github"></i><a href="https://github.com/bhupirao/Clone_Boat_Style.github.io" target="_blank">Code</a></button>
+                            <button><i class="fa-solid fa-arrow-up-right-from-square"></i><a href="https://bhupirao.github.io/Clone_Boat_Style.github.io/" target="_blank">Live</a></button>
+                            </div>
+                        </div>
+
+                     </div>
+                     <div class="project">
+                        <div class="imageSlider3">
+                            
+                        </div>
+                        <div class="info">
+                         <h2>Clone_Naukri.com</h2>
+                         <h4>Features</h4>
+                         <li>Home Page</li>
+                         <li>Login & SingUp</li>
+                         <li>Saved Job Page</li>
+                         <li>Service Page</li>
+                         <h4>Tech Stack</h4>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JavaScript</li>
+                            <div class="project-btn">
+                               <button> <i class="fa-brands fa-github"></i><a href="https://github.com/bhupirao/Naukri.com.github.io" target="_blank">Code</a></button>
+                            <button><i class="fa-solid fa-arrow-up-right-from-square"></i><a href="https://practical-wilson-0e6184.netlify.app" target="_blank">Live</a></button>
+                            </div>
+                        </div>
+                        
+     
+                     </div>
+                     <div class="project">
+                        <div class="imageSlider4">
+     
+                        </div>
+                        <div class="info">
+                            <h2>Clone_Rodan and Fields</h2>
+                            <h4>Features</h4>
+                            <li>Home Page</li>
+                            <li>Cart Page</li>
+                            <li>Consultant Page, Product Page</li>
+                            <li>Login & SingUp</li>
+                            <h4>Tech Stack</h4>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <div class="project-btn">
+                               <button> <i class="fa-brands fa-github"></i><a href="https://github.com/bhupirao/rodan.github.io" target="_blank">Code</a></button>
+                            <button><i class="fa-solid fa-arrow-up-right-from-square"></i><a href="https://enchanting-crepe-ad0139.netlify.app" target="_blank">Live</a></button>
+                            </div>
+                        </div>
+     
+                     </div>
+
+               </div>
 
                 </div>
             </section>
+              <!-- Statics  -->
 
+              <section class="statics section " id="statics">
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="section-title padd-15">
+                           <h2>Statics</h2>
+                              
+                        </div>
+                    </div>
+
+
+                    <div class="circle-bg">
+                        <div class="circle-wrap">
+                            <div class="circle">
+    
+                             <div class="mask full-1">
+                                 <div class="fill-1">
+
+                                 </div>
+                                </div>
+
+                                <!-- 2nd -->
+                               <div class="mask half">
+                                <div class="fill-1">
+
+                                </div>
+                               </div>
+                               <div class="inside-circle">1200+</div>
+                               <div class="text-circle"><h3>Hours</h3><p>of Full Stack Coding</p></div>
+                            </div>
+                          
+                         </div>
+                         
+    
+                         <div class="circle-wrap">
+                            <div class="circle">
+                                
+                                <div class="mask full-1">
+                                    <div class="fill-1">
+   
+                                    </div>
+                                   </div>
+   
+                                   <!-- 2nd -->
+                                  <div class="mask half">
+                                   <div class="fill-1">
+   
+                                   </div>
+                                  </div>
+                                  <div class="inside-circle">210+</div>
+                                  <div class="text-circle"><h3>Git</h3><p>Commits</p></div>
+                            </div>
+                         </div>
+                        
+                         <div class="circle-wrap">
+                            <div class="circle">
+                                
+                                <div class="mask full-1">
+                                    <div class="fill-1">
+   
+                                    </div>
+                                   </div>
+   
+                                   <!-- 2nd -->
+                                  <div class="mask half">
+                                   <div class="fill-1">
+   
+                                   </div>
+                                  </div>
+                                   <div class="inside-circle">10+</div>
+                                   <div class="text-circle"><h3>Project</h3><p>Done</p></div>
+                            </div>
+                         </div>
+    
+                         <div class="circle-wrap">
+                            <div class="circle">
+                                
+                                <div class="mask full-1">
+                                    <div class="fill-1">
+   
+                                    </div>
+                                   </div>
+   
+                                   <!-- 2nd -->
+                                  <div class="mask half">
+                                   <div class="fill-1">
+   
+                                   </div>
+                                  </div>
+                                  <div class="inside-circle">100+</div>
+                                  <div class="text-circle"><h3>Hours</h3><p>of Soft Skills Sessions</p></div>
+                            </div>
+                         </div>
+                    </div>
+                     
+
+
+                </div>
+              </section>
+
+              <!-- Contact -->
+
+              <section class="contact section" id="contact">
+                 <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                           <h2>Contact Me</h2>
+                              
+                        </div>
+                    </div>
+
+
+                    <div class="contact-me">
+                        <div class="contact-info">
+                            <div class="box">
+                                <div class="c-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                <div class="c-text">
+                                    <h3>Address</h3>
+                                    <p>Narnaul,Haryana-123001,India </p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="c-icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                                <div class="c-text">
+                                    <h3>Email</h3>
+                                    <p>bhoopsinghyadav26@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="c-icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                                <div class="c-text">
+                                    <h3>Mobile No</h3>
+                                    <p>+91-7300893842 </p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <div class="c-icon social">
+                                <a href="https://www.linkedin.com/in/bhoopsingh26/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                            <a href="https://github.com/bhupirao" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/bhupi_rao2610" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/bhupi_rao/?r=nametag" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                            </div>
+
+                        </div>
+
+                        <div class="contact-form">
+                            <form>
+
+                                <h2>Send Message</h2>
+                                <div class="inputBox">
+                                    <input type="text" name="" required="required">
+                                    <span>Full Name</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="text" name="" required="required">
+                                    <span>Email</span>
+                                </div>
+                                <div class="inputBox">
+                                    <textarea required="required"></textarea>
+                                    <span>Text Your Message...</span>
+                                </div>
+                                <div class="inputBox">
+                                    <input type="submit" name="" value="Send">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                 </div>
+              </section>
 
         </div>
     </div>
     
 </body>
 </html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="/Scripts/index.js"></script>
