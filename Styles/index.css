@@ -889,7 +889,11 @@ transform: rotate(120deg);
     padding: 10px;
     font-size: 16px;
 }
-
+.contri{
+    text-decoration: none;
+    font-size: 24px;
+    color: #9d638f;
+}
 
 
 /* Home Responsive */
@@ -1069,9 +1073,19 @@ transform: rotate(120deg);
         
 
     }
+    .contri{
+        text-decoration: none;
+        font-size: 24px;
+        color: #9d638f;
+    }
 
 
 /* statics */
+.contri{
+    text-decoration: none;
+    font-size: 24px;
+    color: #9d638f;
+}
 .circle-bg{
     grid-template-columns: repeat(1,1fr);
  }
