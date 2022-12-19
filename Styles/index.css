@@ -23,10 +23,17 @@ body{
 ::before,::after{
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
+
 ul{
     list-style: none;
 }
-.section{
+.main-content{
+    padding-left: 300px;
+}
+/* .section{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
@@ -43,6 +50,8 @@ ul{
     transition: all 0.3s ease;
 
 }
+
+
 .section.back-section{
     z-index: 1;
 
@@ -59,7 +68,7 @@ ul{
     100%{
         transform: translateX(0%);
     }
-}
+} */
 .hidden{
     display: none !important;
 }
@@ -700,6 +709,11 @@ h3.my-profession{
 }
 
 /* Statics Section */
+.statics{
+
+    margin-top: 650px;
+
+}
 .circle-bg{
     display: grid;
     grid-template-columns: repeat(2,1fr);
