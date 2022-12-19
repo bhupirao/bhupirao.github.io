@@ -9,6 +9,10 @@
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="/Styles/index.css">
     <link rel="stylesheet" href="/Styles/color1.css">
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@2.3.1/dist/github-calendar-responsive.css"
+ />
     <title>Portfolio</title>
 </head>
 <body>
@@ -42,7 +46,7 @@
                             <h3 class="hello">Hey!, I am <span class="name">Bhoop Singh</span></h3>
                             <h3 class="my-profession">I' m  <span class="typing">Java Backend Developer</span></h3>
                             <p>Highly dedicated, logical and results-driven Full Stack Developer familiar with a wide range of programming utilities and languages. Knowledgeable of Java Backend and Frontend Development.</p>
-                                <a href="/BHOOP_SINGH_Resume_10-09-2022-19-55-41.pdf"  class="btn" download="BHOOP_SINGH_RESUME">Resume</a>
+                                <a href="/BHOOP_SINGH_Resume_10-09-2022-19-55-41.pdf"  class="btn" id="res" download="BHOOP_SINGH_RESUME">Resume</a>
                         </div>
                         <div class="home-img padd-15">
                             <img src="/images/Photo.jpg" alt="">
@@ -329,26 +333,51 @@
                                   <div class="text-circle"><h3>Hours</h3><p>of Soft Skills Sessions</p></div>
                             </div>
                          </div>
-
-                         <div class="circle-wrap">
-                            <div class="circle">
-                                
-                                <div class="mask full-1">
-                                    <div class="fill-1">
-   
-                                    </div>
-                                   </div>
-   
-                                   <!-- 2nd -->
-                                  <div class="mask half">
-                                   <div class="fill-1">
-   
-                                   </div>
-                                  </div>
-                                   <div class="inside-circle"><a class="contri" href="https://bloggify.github.io/github-calendar/example/" target="_blank">G C</a></div>
-                                   <div class="text-circle"><h3>Github</h3><p>Contribution Calendar</p></div>
+                         
+                         <div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <div class="row">
+                                <div class="section-title padd-15">
+                                   <h2>Github Calender and Stats</h2>
+                                      
+                                </div>
                             </div>
+                            <div>
+                                <div class="git">
+                                    <script
+                                    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+                                  ></script>
+                                  
+                                  <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                                 
+                                  
+                                  <!-- Prepare a container for your calendar. -->
+                                  <div class="calendar" >
+                                      <!-- Loading stuff -->
+                                      Loading the data just for you.
+                                  </div>
+                                  
+                                  <script>
+                                      GitHubCalendar(".calendar", "bhupirao");
+                                      // or enable responsive functionality
+                                      GitHubCalendar(".calendar", "bhupirao", { responsive: true });
+                                  </script>
+                                </div>
+                               
+                              <br>
+                              <br>
+                              <div class="stats">
+                                <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bhupirao&show_icons=true&locale=en&layout=compact" alt="bhupirao" /></p>
+                              
+                                <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bhupirao&show_icons=true&locale=en" alt="bhupirao" /></p>
+                              
+                              </div>
+                             </div>
                          </div>
+                         
 
                     </div>
                      

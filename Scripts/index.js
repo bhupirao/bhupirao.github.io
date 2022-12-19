@@ -6,6 +6,13 @@ var typed=new Typed(".typing",{
     loop:true
 })
 
+let b=document.getElementById("res")
+b.addEventListener('click', function(){
+
+    window.open("https://drive.google.com/file/d/1GOKFieKVN0LfShT9fM_NJfXf0zBkCUgP/view?usp=sharing");
+    
+})
+
 // Aside 
 const  nav=document.querySelector(".nav"),
    navList=nav.querySelectorAll("li"),

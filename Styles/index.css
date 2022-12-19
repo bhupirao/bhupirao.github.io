@@ -704,8 +704,7 @@ h3.my-profession{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
-    margin: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: -10px;
     
 }
@@ -774,6 +773,21 @@ transform: rotate(120deg);
     text-align: center;
     color: #9d638f;
 }
+
+/* .git{
+    padding-left: 100px;
+} */
+.stats{
+    padding-left: 100px;
+    display: flex;
+    gap: 30px;
+}
+.stats p:nth-child(2){
+    margin-top: -25px;
+
+}
+
+
 /* Contact Section */
 .contact-me{
     width: 100%;
