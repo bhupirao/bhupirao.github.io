@@ -712,14 +712,18 @@ h3.my-profession{
 .statics{
 
     margin-top: 650px;
-
+   
+}
+.row-git{
+padding-left: 450px;
 }
 .circle-bg{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: auto;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: -10px;
+    margin-right: 500px;
     
 }
 .circle-wrap{
@@ -788,16 +792,20 @@ transform: rotate(120deg);
     color: #9d638f;
 }
 
-/* .git{
-    padding-left: 100px;
-} */
+.git{
+    padding-left: 450px;
+    padding-top: 50px;
+}
 .stats{
     padding-left: 100px;
     display: flex;
     gap: 30px;
+    padding-left: 450px;
+
 }
 .stats p:nth-child(2){
     margin-top: -25px;
+    
 
 }
 
