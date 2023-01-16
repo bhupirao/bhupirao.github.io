@@ -681,7 +681,7 @@ align-items: center;
     overflow: hidden;
     /* width: 100%; */
     /* height: 300px; */
-    background-image: url("/images/Ssense_Home.png");
+    background-image: url("/Images/Ssense_Home.png");
     background-size: 100% 100%;
     animation: changeImage 20s linear infinite;
     cursor: pointer;
@@ -705,25 +705,25 @@ border-radius: 20px;
     }
 @keyframes changeImage {
     0%{
-        background-image: url("/images/Ssense_Home.png");
+        background-image: url("/Images/Ssense_Home.png");
     }
     15%{
-        background-image: url("/images/Ssense_Menwears.png");
+        background-image: url("/Images/Ssense_Menwears.png");
     }
     35%{
-        background-image: url("/images/Ssense_Womenswear.png");
+        background-image: url("/Images/Ssense_Womenswear.png");
     }
     55%{
-        background-image: url("/images/Ssense_Everything.png");
+        background-image: url("/Images/Ssense_Everything.png");
     }
     75%{
-        background-image: url("/images/Ssense_AddCart.png");
+        background-image: url("/Images/Ssense_AddCart.png");
     }
     85%{
-        background-image: url("/images/Ssense_SingUp_Login.png");
+        background-image: url("/Images/Ssense_SingUp_Login.png");
     }
     100%{
-        background-image: url("/images/Ssense_Home.png");
+        background-image: url("/Images/Ssense_Home.png");
     }
 
 }
@@ -874,7 +874,7 @@ border-radius: 20px;
     border-radius: 20px;
     transform: translate(-80px);
     overflow: hidden;
-    background-image: url("/images/Boat_Style_Home.png");
+    background-image: url("/Images/Boat_Style_Home.png");
     background-size: 100% 100%;
     animation: changeImage2 20s linear infinite;
     cursor: pointer;
@@ -883,25 +883,25 @@ border-radius: 20px;
 }
 @keyframes changeImage2 {
     0%{
-        background-image: url("/images/Boat_Style_Home.png");
+        background-image: url("/Images/Boat_Style_Home.png");
     }
     15%{
-        background-image: url("/images/Boat_Product.png");
+        background-image: url("/Images/Boat_Product.png");
     }
     35%{
-        background-image: url("/images/Boat_SingUp.png");
+        background-image: url("/Images/Boat_SingUp.png");
     }
     55%{
-        background-image: url("/images/boat_cart.png");
+        background-image: url("/Images/boat_cart.png");
     }
     75%{
-        background-image: url("/images/Boat_checkout.png");
+        background-image: url("/Images/Boat_checkout.png");
     }
     85%{
-        background-image: url("/images/Boat_GiftCard.png");
+        background-image: url("/Images/Boat_GiftCard.png");
     }
     100%{
-        background-image: url("/images/Boat_Style_Home.png");
+        background-image: url("/Images/Boat_Style_Home.png");
     }
 }
 
@@ -914,7 +914,7 @@ border-radius: 20px;
     border-radius: 20px;
     transform: translate(-80px);
     overflow: hidden;
-    background-image: url("/images/Naukri_Home.png");
+    background-image: url("/Images/Naukri_Home.png");
     background-size: 100% 100%;
     animation: changeImage3 20s linear infinite;
     cursor: pointer;
@@ -923,25 +923,25 @@ border-radius: 20px;
 }
 @keyframes changeImage3 {
     0%{
-        background-image: url("/images/Naukri_Home.png");
+        background-image: url("/Images/Naukri_Home.png");
     }
     15%{
-        background-image: url("/images/Naukri_Job.png");
+        background-image: url("/Images/Naukri_Job.png");
     }
     35%{
-        background-image: url("/images/Naukri_SaveJob.png");
+        background-image: url("/Images/Naukri_SaveJob.png");
     }
     55%{
-        background-image: url("/images/Naukri_Login.png");
+        background-image: url("/Images/Naukri_Login.png");
     }
     75%{
-        background-image: url("/images/Naukri_Service.png");
+        background-image: url("/Images/Naukri_Service.png");
     }
     85%{
-        background-image: url("/images/Naukri_Job.png");
+        background-image: url("/Images/Naukri_Job.png");
     }
     100%{
-        background-image: url("/images/Naukri_Home.png");
+        background-image: url("/Images/Naukri_Home.png");
     }
 }
 
@@ -954,7 +954,7 @@ border-radius: 20px;
     border-radius: 20px;
     transform: translate(-80px);
     overflow: hidden;
-    background-image: url("/images/Rodan_Home.png");
+    background-image: url("/Images/Rodan_Home.png");
     background-size: 100% 100%;
     animation: changeImage4 20s linear infinite;
     cursor: pointer;
@@ -963,25 +963,25 @@ border-radius: 20px;
 }
 @keyframes changeImage4 {
     0%{
-        background-image: url("/images/Rodan_Home.png");
+        background-image: url("/Images/Rodan_Home.png");
     }
     15%{
-        background-image: url("/images/Rodan_Product.png");
+        background-image: url("/Images/Rodan_Product.png");
     }
     35%{
-        background-image: url("/images/Rodan_Consultant.png");
+        background-image: url("/Images/Rodan_Consultant.png");
     }
     55%{
-        background-image: url("/images/Rodan_cart.png");
+        background-image: url("/Images/Rodan_cart.png");
     }
     75%{
-        background-image: url("/images/Rodan_Login.png");
+        background-image: url("/Images/Rodan_Login.png");
     }
     85%{
-        background-image: url("/images/Rodan_Product.png");
+        background-image: url("/Images/Rodan_Product.png");
     }
     100%{
-        background-image: url("/images/Rodan_Home.png");
+        background-image: url("/Images/Rodan_Home.png");
     }
 }
 
