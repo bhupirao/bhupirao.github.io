@@ -6,7 +6,24 @@ var typed=new Typed(".typing",{
     BackSpeed:20,
     loop:true
 })
+let resume=document.getElementById("res1")
+resume.addEventListener('click', function(){
 
+    window.open("https://drive.google.com/file/d/1GOKFieKVN0LfShT9fM_NJfXf0zBkCUgP/view?usp=sharing");
+    
+})
+let resume1=document.getElementById("res2")
+resume1.addEventListener('click', function(){
+
+    window.open("https://drive.google.com/file/d/1GOKFieKVN0LfShT9fM_NJfXf0zBkCUgP/view?usp=sharing");
+    
+})
+let resume2=document.getElementById("res3")
+resume2.addEventListener('click', function(){
+
+    window.open("https://drive.google.com/file/d/1GOKFieKVN0LfShT9fM_NJfXf0zBkCUgP/view?usp=sharing");
+    
+})
 
 let menu = document.querySelector('#menu-bars');
 let header =document.querySelector('header');
@@ -47,19 +64,3 @@ document.querySelectorAll('a').forEach(links =>{
 })
 
 
-
-//    const navTogglerBtn=document.querySelector(".nav-toggler"),
-//    aside=document.querySelector(".aside");
-
-//    navTogglerBtn.addEventListener("click",()=>{
-
-//     asideSectionTogglerBtn();
-//    })
-
-//    function asideSectionTogglerBtn(){
-//     aside.classList.toggle("open");
-//     navTogglerBtn.classList.toggle("open");
-//     for(let i=0;i<totalSection;i++){
-//         allSection[i].classList.toggle("open");
-//     }
-//    }
