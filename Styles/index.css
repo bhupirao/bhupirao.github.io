@@ -1147,6 +1147,22 @@ border-radius: 20px;
         min-height: 110vh;
         
     } */
+
+    .tech .container .techno .drop{
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .tech .container .techno div img{
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 25px;
+        cursor: pointer;
+    }
+
+
     .skill ul li a{
         letter-spacing: 0.05em;
         
@@ -1254,6 +1270,20 @@ border-radius: 20px;
         height:300px;
         width: 250px;
     }
+    .tech .container .techno .drop{
+        width: 220px;
+        height: 220px;
+    }
+
+
+    .tech .container .techno div img{
+        margin-top: 50px;
+        width: 70px;
+        height: 70px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
     .skill ul li a{
         
         font-size: 20px;
