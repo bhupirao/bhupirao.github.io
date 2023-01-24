@@ -1111,7 +1111,11 @@ border-radius: 20px;
     font-size: 16px;
 }
 
-
+.footBar{
+    text-align: end;
+    color: #E4AD5F;
+    margin-top: 140px;
+}
 
 
 
@@ -1242,6 +1246,11 @@ border-radius: 20px;
        margin-left: 150px;
         
     }
+    .footBar{
+        text-align: end;
+        color: #E4AD5F;
+        margin-top: 40px;
+    }
     
 }
 
@@ -1325,5 +1334,10 @@ border-radius: 20px;
     .contact-info{
        margin-left: 10px;
         
+    }
+    .footBar{
+        text-align: end;
+        color: #E4AD5F;
+        margin-top: 40px;
     }
 }
